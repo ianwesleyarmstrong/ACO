@@ -1,7 +1,7 @@
 from math import *
 
 
-def haversine(c1, c2):
+def Haversine(c1, c2):
     """calculate distance between too coordinates accounting for the
     curvature of the earth"""
     lat1 = float(c1.split(",")[0])
